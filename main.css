@@ -1,0 +1,46 @@
+/* rule-set #1: Everything within the body tag will have a pink background. */
+body {
+    background-color:lightpink;
+}
+
+/* rule-set #2: Everything within a css-classes class will have a white background. */
+.css-classes {
+    background-color: white;
+}
+
+.positioning{
+    width: 75%;
+    background-color: lightgray;
+}
+
+.positioning h1{
+    text-align: center;
+}
+
+b{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#four-widths{
+    border-style: dotted;
+    border-width: 2px 4px 4px 2px;
+}
+/* 8 */
+.padding-class{
+    border:2px solid blue;
+      margin: 50px 50px 50px 50px
+      padding: 20px 20px 20px 20px
+}
+
+#padding-experiment{
+    border: 2px solid goldenrod;
+    margin: 50px 50px 50px 50px;
+  /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  */
+    padding: 20px 20px 20px 20px;
+}
